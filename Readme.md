@@ -12,9 +12,9 @@ It will show 2 input panel to read property name and property class then it will
 - add constructor if not exists
 - add constructor param
 - add $this->property = $property to constructor
-- triggers the SublimePHPCompanion's find_use command to add use statement for the property's class if can be found
-- triggers the DocBlockr's jsdocs command to create/update constructor docblock
-- add use statement for the property's class if can be found (this one uses the SublimePHPCompanion find_use command)
+- triggers the [SublimePHPCompanion](https://github.com/erichard/SublimePHPCompanion)'s find_use command to add use statement for the property's class if can be found
+- delete the constructor docblock if exists then triggers the [DocBlockr](https://github.com/spadgos/sublime-jsdocs)'s jsdocs command to create/update constructor docblock
+
 Result:
 ```php
 <?php
